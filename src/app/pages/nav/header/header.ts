@@ -1,0 +1,17 @@
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
+
+@Component({
+  selector: 'app-header',
+  standalone:true,
+  imports: [RouterLink,RouterLinkActive,CommonModule],
+  templateUrl: './header.html',
+  styleUrl: './header.css'
+})
+export class Header {
+  isHomePage():boolean
+  {
+    return location.pathname == "/";
+  }
+}

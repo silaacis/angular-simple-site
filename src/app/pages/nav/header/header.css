@@ -1,0 +1,17 @@
+.current-active{
+    color: black;
+    font-weight: bold;
+}
+
+.site-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  font-weight: 700;      /* Kalın yazı */
+  font-size: 1.8rem;     /* Daha büyük boyut */
+  color: #6b07347e;        /* Bootstrap mavi tonuna yakın renk */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Hafif gölge efekti */
+}
+.site-title:hover {
+  color: #6d2c4a7e;        /* Hover efekti ile koyulaşır */
+  text-decoration: none; /* Alt çizgi kalkar */
+}
+
